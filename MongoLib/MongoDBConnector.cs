@@ -3,7 +3,7 @@ using MongoDB.Bson;
 
 namespace MongoLib;
 
-public class MongoDBConnector
+public class MongoDBConnector : IDBConnector
 {
     private readonly MongoClient _client;
 
