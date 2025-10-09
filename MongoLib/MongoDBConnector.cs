@@ -11,4 +11,11 @@ public class MongoDBConnector
     {
         _client = new MongoClient(connectionString);
     }
+
+    public bool Ping()
+{
+    // to be implemented after writing tests (step 9)
+    return false;
+}
+
 }
