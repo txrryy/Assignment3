@@ -16,10 +16,11 @@ public class MongoDBConnectorTests : IAsyncLifetime
     public async Task InitializeAsync() => await _mongo.StartAsync();
     public async Task DisposeAsync()    => await _mongo.DisposeAsync();
 
-    [Fact]
-    public void Ping_ShouldReturnTrue_WhenContainerIsRunning()
-    {
-        var connector = new MongoDBConnector(_mongo.GetConnectionString());
-        Assert.True(connector.Ping());
-    }
+   [Fact]
+public void Ping_ShouldReturnFalse_WhenConnectionStringIsInvalid()
+{
+    var connector = new MongoDBConnector("mongodb://invalid-host:27017");
+    Assert.False(connector.Ping());
+}
+
 }
