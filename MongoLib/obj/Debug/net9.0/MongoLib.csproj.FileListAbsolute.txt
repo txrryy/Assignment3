@@ -1,0 +1,13 @@
+/Users/tj/Assignment3/MongoLib/bin/Debug/net9.0/MongoLib.deps.json
+/Users/tj/Assignment3/MongoLib/bin/Debug/net9.0/MongoLib.dll
+/Users/tj/Assignment3/MongoLib/bin/Debug/net9.0/MongoLib.pdb
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.csproj.AssemblyReference.cache
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.AssemblyInfoInputs.cache
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.AssemblyInfo.cs
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.csproj.CoreCompileInputs.cache
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.sourcelink.json
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.dll
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/refint/MongoLib.dll
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/MongoLib.pdb
+/Users/tj/Assignment3/MongoLib/obj/Debug/net9.0/ref/MongoLib.dll
