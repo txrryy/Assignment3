@@ -2,7 +2,7 @@ using Npgsql;
 
 namespace MongoLib;
 
-public class PostgresConnector : IDBConnector
+public class PostgresConnector : IDbConnector
 {
     private readonly string _connectionString;
 
@@ -15,11 +15,13 @@ public class PostgresConnector : IDBConnector
     {
         try
         {
-            using var connection = new NpgsqlConnection(_connectionString);
-            connection.Open();
-            using var cmd = new NpgsqlCommand("SELECT 1;", connection);
-            cmd.ExecuteScalar();
-            return true;
+            using var conn = new NpgsqlConnection(_connectionString);
+            conn.Open();
+
+            using var cmd = new NpgsqlCommand("SELECT 1;", conn);
+            var result = cmd.ExecuteScalar();
+
+            return result is int or long or decimal or double;
         }
         catch
         {
